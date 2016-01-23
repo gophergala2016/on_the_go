@@ -64,29 +64,40 @@ $(function(){
     var markers = [];
 
     window.initMap = function() {
-        var myLatLng = {
-            lat: -33.906946,
-            lng: 18.4189704
+        var james = {
+            lat: -33.9463836,
+            lng: 18.5217384
         };
-	       var pos2 = {
-	          lat: -33.9470948,
-	          lng:18.5211491
+	       var mabheleni = {
+	          lat: -33.9464699,
+	          lng:18.5265217
         };
+
+        var lucky = {
+           lat: -33.9410035,
+           lng:18.5290981
+       };
 
         map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
-            center: myLatLng
+            center: james
         });
 
         var marker = new google.maps.Marker({
-            position: myLatLng,
+            position: james,
             map: map,
-            title: 'Spaza Shop!'
+            title: 'James Spaza Shop!'
         });
         var marker2 = new google.maps.Marker({
-            position: pos2,
+            position: mabheleni,
             map: map,
-            title: 'Spaza Shop!'
+            title: 'Mabheleni Spaza'
+        });
+
+        var marker2 = new google.maps.Marker({
+            position: lucky,
+            map: map,
+            title: 'Lucky Spaza'
         });
     };
 
