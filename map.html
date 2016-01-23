@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Spaza</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.4.0/angular-route.js"></script>
+  <script src="js/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.1/css/bootstrap-material-design.css">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css" />
+	<script src="js/geolib.min.js"></script>
+</head>
+
+<body >
+	<nav>
+		<div class="nav__items navbar navbar-default">
+			<a href="index.html">Home</a>
+			<a href="#">About</a>
+			<a href="#">Map Your Spaza</a>
+		</div>
+		<!-- /.nav__items -->
+	</nav>
+  <section id="shops">
+    <div class="grid" id="shop1">
+      <h3>Lucky's Spaza</h3>
+			<p>
+				I sell everything from fruit & veg to can food<p>
+			</p>
+      <div class="img" id="lucky"></div>
+
+      </div>
+    </div>
+    <div class="grid" id="shop2">
+      <h3>James Spaza</h3>
+      <div class="img" id="james"></div>
+
+      </div>
+    </div>
+    <div class="grid" id="shop3">
+      <h3>Mabheleni Spaza</h3>
+			<p>
+				Open till 21h00.
+				32 Church Street Langa.
+			</p>
+      <div class="img" id="mabs"></div>
+
+      </div>
+    </div>
+    <div class="grid" id="shop4">
+      <h3>Ronnies Spaza</h3>
+      <div class="img" id="ron"></div>
+
+      </div>
+    </div>
+  </section>
+  <div id="map"></div>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZUOeLHok7Np_KxVUfvVNFRVVEUEb0mbg&signed_in=true&callback=initMap"></script>
+  </body>
+  <script src="js/app.js" charset="utf-8"></script>
+</html>
