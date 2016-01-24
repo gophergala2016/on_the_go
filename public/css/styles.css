@@ -106,17 +106,30 @@ a:focus {
 
 *{ -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important; }
 
+.table{
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    font-size:  60px;
+    color: black;
+}
+label{
+  color: black;
+}
 
 .logo{
     font-family: 'Pacifico', cursive;
     font-weight: 500;
     font-size:  60px;
     color: #009688;
+    padding-top: 2em;
 }
 
 /*body{
 overflow: hidden;
 }*/
+.Back{
+  padding-right: 2em;
+}
 
 #map {
   height: 30em;
@@ -141,28 +154,38 @@ overflow: hidden;
 }
 
 .img{
-  height: 10em;
+  height: 6em;
   width: 6em;
-  margin: 0 0 0 20em;
+  margin: -6em 0 0 20em;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.text{
+    padding-left: 1em;
+}
+
+.text1{
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+}
+
 #ron{
-  background-image: url("../ronnie.jpg");
+  background-image: url("../img/ronnie.jpg");
 }
 
 #james{
-  background-image: url("../james.jpg");
+  background-image: url("../img/james.jpg");
 }
 
 #lucky{
-  background-image: url("../lucky.JPG");
+  background-image: url("../img/lucky.JPG");
 }
 
 #mabs{
-  background-image: url("../mabhe.jpeg");
+  background-image: url("../img/mabhe.jpeg");
 }
-.well{
+.info{
   padding-left: 20em;
   padding-top: 4em;
 }
