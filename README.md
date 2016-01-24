@@ -1,5 +1,5 @@
 #on_the_go 
-
+Gopher Gala Hackathon 2016
 Run the golang App locally
     
       1. Clone the repository
