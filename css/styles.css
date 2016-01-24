@@ -110,6 +110,10 @@ a:focus {
     font-family: 'Pacifico', cursive;
     font-weight: 500;
     font-size:  60px;
+    color: black;
+}
+label{
+  color: black;
 }
 
 .logo{
@@ -121,6 +125,9 @@ a:focus {
 /*body{
 overflow: hidden;
 }*/
+.Back{
+  padding-right: 2em;
+}
 
 #map {
   height: 30em;
