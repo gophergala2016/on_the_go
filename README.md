@@ -6,3 +6,4 @@ Gopher Gala Hackathon 2016
       3. Run $go run server.go in the terminal
       4. Run localhost:3000 in the browser
       5. Check Issues for pitch slides and App screenshots images
+      6. When mapping spaza you need to tick two locations to get distance, center, nearest and in circle
