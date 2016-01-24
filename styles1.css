@@ -161,3 +161,7 @@ overflow: hidden;
 #mabs{
   background-image: url("../mabhe.jpeg");
 }
+.well{
+  padding-left: 20em;
+  padding-top: 4em;
+}
