@@ -163,5 +163,6 @@ overflow: hidden;
   background-image: url("../mabhe.jpeg");
 }
 .well{
-  padding: 2em;
+  padding-left: 20em;
+  padding-top: 4em;
 }
