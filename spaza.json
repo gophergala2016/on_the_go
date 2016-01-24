@@ -1,24 +1,22 @@
-[  
-   {  
+[
+   {
       "name":"james spaza",
       "latitude":"-33.9463836",
-      "longitude":"18.5217384",
-      "Menu": "Bread": "R10", "Milk":"R15", ""
+      "longitude":"18.5217384" 
    },
-   {  
+   {
       "name":"lucky spaza",
       "latitude":"-33.9410035",
       "longitude":"18.5290981"
         },
-   {  
+   {
       "name":"mabheleni spaza",
       "latitude":"-33.9464699",
       "longitude":",18.5265217"
         },
-    {  
+    {
       "name":"ronnies spaza",
       "latitude":"-33.9453545",
       "longitude":"18.5387307"
         },
-   
 ]
