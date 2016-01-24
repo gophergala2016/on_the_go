@@ -1,0 +1,168 @@
+body {
+    background-color: white;
+}
+
+* {
+    font-size: 18px;
+    font-family: "Roboto", "Lato", Helvetica;
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.host {
+    text-transform: uppercase;
+}
+
+.items {
+    text-align: center;
+}
+
+.items:hover {
+    text-decoration: none;
+}
+
+.getCoords {
+    background-color: #303F9F;
+    border-radius: 100%;
+    text-transform: uppercase;
+    height: 150px;
+    width: 150px;
+}
+
+.image {
+    max-height: 300px;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #A0A0A0;
+}
+
+.nav__items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+nav > a {
+    color: #FFFFFF;
+}
+
+a {
+    display: inline-block;
+    color: #252626;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.row_button,
+.row_btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.event__image {
+    height: 500px
+}
+
+.details__event {}
+
+.image__a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image {
+    height: 240px;
+    max-height: 100%;
+    align-self: center;
+    width: 250px;
+}
+
+*{ -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important; }
+
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    font-size:  60px;
+    color: #009688;
+}
+
+/*body{
+overflow: hidden;
+}*/
+
+#map {
+  height: 30em;
+  width: 30em;
+  margin: -30em 0 0 42em;
+  /*border: 5px solid black;*/
+}
+#shops{
+  height: 30em;
+  width: 30em;
+  margin-left: 4em;
+  /*border: 5px solid black;*/
+  overflow: auto;
+}
+.grid{
+  height: 10em;
+  width: 27em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  background: #009688;
+}
+
+.img{
+  height: 10em;
+  width: 6em;
+  margin: 0 0 0 20em;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#ron{
+  background-image: url("../ronnie.jpg");
+}
+
+#james{
+  background-image: url("../james.jpg");
+}
+
+#lucky{
+  background-image: url("../lucky.JPG");
+}
+
+#mabs{
+  background-image: url("../mabhe.jpeg");
+}
+.well{
+  padding-left: 20em;
+  padding-top: 4em;
+}
